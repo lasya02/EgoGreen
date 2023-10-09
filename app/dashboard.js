@@ -4,22 +4,14 @@ import { Observable } from '@nativescript/core';
 export function onNavigatingTo(args) {
   const page = args.object
   //page.bindingContext = createViewModel()
- 
+
+
 }
 
-export function login(args) {
+export function newPage(args) {
   const button = args.object
   const page = button.page 
 
-  page.frame.navigate('login')
+  page.frame.navigate('dashboard')
 
 }
-
-export function register(args) {
-  const button = args.object
-  const page = button.page 
-
-  page.frame.navigate('register')
-
-}
-

@@ -1,0 +1,12 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="onNavigatingTo">
+    <ActionBar title="Dashboard" icon="" />
+
+      <StackLayout class="p-20">
+        <Label text = "Welcome"> </Label>
+        <Label text = "{{ username }}" > </Label> 
+
+    </StackLayout>
+
+   
+
+</Page>

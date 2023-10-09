@@ -1,0 +1,27 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="onNavigatingTo">
+    <ActionBar title="Register For New Account" icon="" />
+
+    <StackLayout class="form">
+        <Label text = "First Name"> </Label> 
+        <TextField hint = "Enter First Name" text = "{{ firstName }}"> </TextField>
+
+        <Label text = "Last Name"> </Label> 
+        <TextField hint = "Enter Last Name" text = "{{ lastName }}"> </TextField>
+
+        <Label text = "Username"> </Label> 
+        <TextField hint = "Enter Username" text = "{{ username }}"> </TextField>
+
+        <Label text = "Enter Password"> </Label> 
+        <TextField hint = "Enter Password" text = "{{ password }}"> </TextField>
+
+        <Label text = "Confirm Password"> </Label> 
+        <TextField hint = "Enter Password Again" text = "{{ password }}"> </TextField>
+       
+        <Button text = "Register" tap = "dashboard"> </Button>
+
+        <Button text = "Already have an account" tap = "login"> </Button>
+
+        
+    </StackLayout>
+
+</Page>

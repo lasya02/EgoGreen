@@ -1,0 +1,20 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="onNavigatingTo">
+    <ActionBar title="Login" icon="" />
+
+    <FlexboxLayout class = "page"> 
+        <StackLayout class="form">
+            <Label text = "Login" class = "header"> </Label> 
+            
+            <Label text = "Username"> </Label> 
+            <TextField hint = "Enter Username" text = "{{ username }}"> </TextField>
+
+            <Label text = "Password"> </Label> 
+            <TextField hint = "Enter Password" text = "{{ password }}" secure = "true"> </TextField>
+
+            <Button text = "Need to create an account" tap = "register"> </Button>
+
+            <Button text = "Login" tap = "dashboard" class = "btn btn-primary"> </Button>
+        </StackLayout>
+    </FlexboxLayout>
+
+</Page>

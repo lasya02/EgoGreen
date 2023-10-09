@@ -8,6 +8,7 @@
     "@nativescript/theme": "~3.0.2"
   },
   "devDependencies": {
+    "@nativescript/ios": "8.5.2",
     "@nativescript/webpack": "~5.0.14"
   }
 }

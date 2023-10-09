@@ -12,10 +12,12 @@ export function createViewModel() {
   const viewModel = new Observable()
   viewModel.counter = 42
   viewModel.message = getMessage(viewModel.counter)
+  viewModel.message = "hello world java is real"
 
   viewModel.onTap = () => {
+    alert('Button pressed!')
     viewModel.counter--
-    viewModel.set('message', getMessage(viewModel.counter))
+    viewModel.set('message', "hello world")
   }
 
   return viewModel
