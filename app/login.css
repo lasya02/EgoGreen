@@ -16,3 +16,18 @@
     font-weight: 600;
     margin-bottom: 70;
 }
+
+.input-field {
+    margin-bottom: 20;
+}
+
+.input{
+    font-size: 20; 
+}
+
+.btn-primary {
+    height: 50;  
+    background-color: green;
+    font-size: 20;
+    font-weight: 600;
+}

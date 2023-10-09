@@ -3,13 +3,20 @@
 
     <FlexboxLayout class = "page"> 
         <StackLayout class="form">
-            <Label text = "Login" class = "header"> </Label> 
-            
-            <Label text = "Username"> </Label> 
-            <TextField hint = "Enter Username" text = "{{ username }}"> </TextField>
 
-            <Label text = "Password"> </Label> 
-            <TextField hint = "Enter Password" text = "{{ password }}" secure = "true"> </TextField>
+            <Label class = "header" text = "Login" > </Label> 
+
+            <StackLayout class = "input-field"> 
+                <Label class = "input" text = "Username"> </Label> 
+                <TextField class = "input" hint = "Enter Username" text = "{{ username }}"> </TextField>
+                <StackLayout class = "hr-light"> </StackLayout>
+            </StackLayout>
+
+             <StackLayout class = "input-field"> 
+                <Label class = "input" text = "Password"> </Label> 
+                <TextField class = "input" hint = "Enter Password" text = "{{ password }}" secure = "true"> </TextField>
+                <StackLayout class = "hr-light"> </StackLayout>
+            </StackLayout>
 
             <Button text = "Need to create an account" tap = "register"> </Button>
 
